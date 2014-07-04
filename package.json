@@ -1,7 +1,13 @@
 {
+  "author": "Louis Rawlins <email@louisrawlins.com> (http://louisrawlins.com/)",
   "name": "bonfire",
-  "version": "0.0.1",
-  "private": true,
+  "description": "Bonfire School website",
+  "version": "0.0.1-1",
+  "subdomain": "louisrawlins-bonfire",
+  "domains": [
+    "bonfireschool.com",
+    "www.bonfireschool.com"
+  ],
   "scripts": {
     "start": "node server.js"
   },
@@ -13,5 +19,8 @@
     "body-parser": "~1.0.0",
     "debug": "~0.7.4",
     "jade": "~1.3.0"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }
